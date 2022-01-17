@@ -1,0 +1,157 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 110px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+body{
+    background-image: url("images/background\ 2.jpg");
+    height: 1300px;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    height: 150px;
+}
+.main ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.main ul li{
+    display: inline-table;
+}
+
+.main ul li a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration:none;
+    color: darkslategray;
+    padding: 5px 20px;
+    border: 1px solid purple transparent;
+    transition: 0.2 ease-in-out;
+}
+
+.main ul li a:hover{
+    background-color: white;
+    color: #000000;
+
+}
+
+p {
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    word-spacing: 10px;
+}
+
+tr {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.container h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+    word-spacing: 10px;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 2px 2px black;
+
+}
+
+.text {
+	text-align: center;
+	padding: 20px;  
+	letter-spacing: 5px;
+	background-color: #75a8d1;
+
+}
+
+.text p {
+	font-family: MyHelvetica;
+	src: local("Helvetica Neue Bold"),
+		 local("HelveticaNeue-Bold"),
+		 url(MgOpenModernaBold.ttf);
+    font-size: 25px;	
+	padding: 30px;
+	border: 2px solid #ffffff; 
+}
+
+.page {
+	text-align: center;
+	padding: 3px;
+	background-color: rgba(135, 188, 212, 0.945); 
+	height: 250px;
+	float:center;
+	list-style-type: none;
+	
+}
+
+.page ul {
+	margin: 50px;
+}
+
+.page ul li{ 
+	display: inline-table; 
+}
+
+.page ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #0a59b3;
+	padding: 5px 20px;
+    transition: 0.3s ease;
+	
+}
+
+
+.page ul li a:hover{
+	color: darkslateblue;
+}
+
+
+
+.caption {
+	margin-top: 50px;
+	color: rgb(3, 3, 3);
+}
+
+.caption p {
+	font-family: Garamond, serif;
+	font-size: 20px;
+}
+
+.social-icon {
+    color: black;
+    transition: color 0.2s;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-icon:hover {
+    color: whitesmoke;
+}
+
+
+
+    
